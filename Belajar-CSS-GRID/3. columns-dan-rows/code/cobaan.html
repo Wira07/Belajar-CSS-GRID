@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wira Sukma Saputra</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        width: 60%;
+        margin: 50px auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 300px);
+        /* grid-template-columns: 3fr max-content 3fr; */
+        /* grid-template-columns: repeat(4, 4fr) repeat(3, 11fr); */
+        /* grid-template-rows: 200px;
+        grid-auto-flow: row;
+        grid-auto-rows: 200px; */
+      }
+      .item {
+        border: 10px solid rgb(44, 210, 36);
+        background-color: red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #fff;
+      }
+      .item:nth-child(even) {
+        background-color: blueviolet;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+    
+   
+    </div>
+  </body>
+</html>

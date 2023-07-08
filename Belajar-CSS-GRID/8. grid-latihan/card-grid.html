@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wira Sukma Saputra</title>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&family=Viga&display=swap");
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        outline: none;
+        border: none;
+        text-decoration: none;
+        text-transform: capitalize;
+        transition: 0.2s;
+        font-family: "Poppins", sans-serif;
+      }
+      .container {
+        background: linear-gradient(45deg, blueviolet, lightgreen);
+        padding: 15px 9%;
+        padding-bottom: 100px;
+      }
+      .container .heading {
+        text-align: center;
+        text-shadow: 3px 5px 10px rgba(0, 0, 0, 0.2);
+        padding-bottom: 15px;
+        color: #fff;
+      }
+      .container .box-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 15px;
+      }
+      .container .box-container .box {
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        text-align: center;
+        background: #fff;
+        padding: 30px 20px;
+        transition: 0.5s;
+      }
+      .container .box-container .box:hover {
+       transform: scale(1.2);
+      }
+      .container .box-container .box i {
+        height: 80px;
+      }
+      .container .box-container .box h3 {
+        color: #444;
+        font-size: 15px;
+        line-height: 1.8;
+      }
+      .container .box-container .box p {
+        color: #431ed8;
+        font-size: 22px;
+        padding: 10px 0; 
+      }
+      .container .box-container .box .btn {
+        margin-top: 10px;
+        color: #fff;
+        display: inline-block;
+        background-color: #333;
+        font-size: 17px;
+        border-radius: 5px;
+        padding: 8px 25px;
+        transition: 0.5s;
+      }
+      .container .box-container .box .btn:hover {
+        background-color: #431ed8;
+        transform: scale(1.2);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="heading">Our Service</h1>
+      <div class="box-container">
+        <div class="box">
+          <i class="bx bxl-html5" style="font-size: 150px"></i>
+          <h3>HTML 5</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, dolores?</p>
+          <a href="#" class="btn">read more</a>
+        </div>
+        <div class="box">
+          <i class="bx bxl-css3" style="font-size: 150px"></i>
+          <h3>CSS 3</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, dolores?</p>
+          <a href="#" class="btn">read more</a>
+        </div>
+        <div class="box">
+          <i class="bx bxl-javascript" style="font-size: 150px"></i>
+          <h3>Javascript</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, dolores?</p>
+          <a href="#" class="btn">read more</a>
+        </div>
+        <div class="box">
+          <i class="bx bxl-php" style="font-size: 150px"></i>
+          <h3>PHP</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, dolores?</p>
+          <a href="#" class="btn">read more</a>
+        </div>
+        <div class="box">
+          <i class="bx bxl-visa" style="font-size: 150px"></i>
+          <h3>VISA</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, dolores?</p>
+          <a href="#" class="btn">read more</a>
+        </div>
+        <div class="box">
+          <i class="bx bxl-github" style="font-size: 150px"></i>
+          <h3>Github</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, dolores?</p>
+          <a href="#" class="btn">read more</a>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  </body>
+</html>

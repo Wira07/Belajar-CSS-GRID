@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wira Sukma Saputra</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        width: 60%;
+        margin: 50px auto;
+        display: grid;
+        grid-template-columns: repeat(3, 2fr) repeat(6, 5fr);
+        grid-template-columns: repeat(auto-fill, 500px);
+        grid-template-columns: repeat(auto-fit, 500px);
+        grid-template-columns: 2fr min-content 2fr;
+        grid-template-columns: 2fr minmax(200px 300px) 2fr;
+        grid-template-columns: 130px 300px 200px;
+        grid-template-rows: 200px;
+        grid-auto-rows: 300px;
+        grid-auto-flow: column;
+        grid-auto-flow: row;
+        grid-gap: 10px;
+      }
+      .item {
+        background-color: red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #fff;
+        font-weight: bold;
+      }
+      .item:nth-child(even) {
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+      <div class="item">6</div>
+      <div class="item">6</div>
+    </div>
+  </body>
+</html>
