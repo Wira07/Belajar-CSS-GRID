@@ -1,4 +1,3 @@
-# Belajar-CSS-GRID
 # Card - Minimalis - Wira
 ## _Card Sederhana Minimalis_
 
